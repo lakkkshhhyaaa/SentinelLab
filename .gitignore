@@ -1,0 +1,35 @@
+
+# Python virtual environments
+.venv/
+**/.venv/
+venv/
+**/venv/
+
+# Python cache and test artifacts
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+**/.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend dependencies and generated builds
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local audit logs may contain task text and test activity
+backend/audit_logs/
