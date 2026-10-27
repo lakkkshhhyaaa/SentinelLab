@@ -22,23 +22,34 @@ The project is designed for cybersecurity learning, experimentation, and portfol
 
 ## Architecture
 
+
+## Architecture
+
+```text
 Project-AI_Agent_Security_Lab/
 ├── README.md
-├── frontend/
-│   ├── src/
-│   │   └── App.jsx
-│   ├── index.html
-│   ├── index-backup.html
-│   └── README.md
-└── backend/
-    ├── main.py
-    ├── policy.py
-    ├── tools_simulator.py
-    ├── audit_log.py
-    ├── requirements.txt
-    ├── test_agent.py
-    ├── test_policy.py
-    └── audit_logs/
+├── index.html
+├── index-backup.html
+├── backend/
+│   ├── main.py
+│   ├── policy.py
+│   ├── tools_simulator.py
+│   ├── audit_log.py
+│   ├── requirements.txt
+│   ├── test_agent.py
+│   └── test_policy.py
+└── frontend/
+    ├── index.html
+    ├── package.json
+    ├── package-lock.json
+    ├── src/
+    │   └── App.jsx
+    └── public/
+```
+
+The frontend communicates with the FastAPI backend over HTTP.
+The backend communicates with the local Ollama API.
+Audit events are stored locally in JSON Lines (JSONL) format.
 
 
 The backend communicates with the local Ollama API. The frontend communicates with the backend API.
