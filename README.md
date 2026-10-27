@@ -20,7 +20,7 @@ The project is designed for cybersecurity learning, experimentation, and portfol
 - **Security dashboard:** Provides an interface for exploring the simulator, security tests, and audit events.
 - **Automated tests:** Includes a Python test suite for API behavior, policy enforcement, and simulated tool workflows.
 
-## Architecture
+
 
 
 ## Architecture
@@ -52,7 +52,7 @@ The backend communicates with the local Ollama API.
 Audit events are stored locally in JSON Lines (JSONL) format.
 
 
-The backend communicates with the local Ollama API. The frontend communicates with the backend API.
+
 
 ## Technology Stack
 
@@ -151,7 +151,7 @@ npm run dev
 Open the local URL printed by Vite, expected to be:
 
 ```text
-http://localhost:5173
+`http://localhost:5173`
 ```
 
 Keep Ollama, the backend, and the frontend running while using the application.
