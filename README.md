@@ -8,6 +8,24 @@ SentinelLab combines a locally running language model with a FastAPI backend and
 
 The project is designed for cybersecurity learning, experimentation, and portfolio demonstration. It does not require a paid AI API or cloud service for its core functionality.
 
+## Screenshots
+
+### Security Overview
+![SentinelLab Dashboard](screenshots/01-overview.png)
+
+### Malicious Message Detection
+![Malicious Analysis](screenshots/02-malicious-analysis.png)
+
+### Benign Message Analysis
+![Benign Analysis](screenshots/04-benign-analysis.png)
+
+### Policy Enforcement
+![Policy Enforcement](screenshots/05-policy-enforcement.png)
+
+### Audit Logs
+![Audit Logs](screenshots/03-audit-logs.png)
+
+
 ## Key Features
 
 - **Local AI analysis:** Uses Ollama with the `llama3.2:3b` model.
